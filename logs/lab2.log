@@ -1,0 +1,57 @@
+2024-06-19 23:53:53 DEBUG AStar - Starting A* algorithm...
+2024-06-19 23:53:53 DEBUG AStar - Start: A
+2024-06-19 23:53:53 DEBUG AStar - Goal: M
+2024-06-19 23:53:53 DEBUG AStar - Visiting: A
+2024-06-19 23:53:53 DEBUG AStar - Checking edge from A to B with weight 1.0
+2024-06-19 23:53:53 DEBUG AStar - Updating path to B. Previous gScore: Infinity, new gScore: 1.0
+2024-06-19 23:53:53 DEBUG AStar - Added B to open set.
+2024-06-19 23:53:53 DEBUG AStar - Checking edge from A to C with weight 4.0
+2024-06-19 23:53:53 DEBUG AStar - Updating path to C. Previous gScore: Infinity, new gScore: 4.0
+2024-06-19 23:53:53 DEBUG AStar - Added C to open set.
+2024-06-19 23:53:53 DEBUG AStar - Visiting: B
+2024-06-19 23:53:53 DEBUG AStar - Checking edge from B to D with weight 2.0
+2024-06-19 23:53:53 DEBUG AStar - Updating path to D. Previous gScore: Infinity, new gScore: 3.0
+2024-06-19 23:53:53 DEBUG AStar - Added D to open set.
+2024-06-19 23:53:53 DEBUG AStar - Checking edge from B to E with weight 5.0
+2024-06-19 23:53:53 DEBUG AStar - Updating path to E. Previous gScore: Infinity, new gScore: 6.0
+2024-06-19 23:53:53 DEBUG AStar - Added E to open set.
+2024-06-19 23:53:53 DEBUG AStar - Visiting: C
+2024-06-19 23:53:53 DEBUG AStar - Checking edge from C to F with weight 3.0
+2024-06-19 23:53:53 DEBUG AStar - Updating path to F. Previous gScore: Infinity, new gScore: 7.0
+2024-06-19 23:53:53 DEBUG AStar - Added F to open set.
+2024-06-19 23:53:53 DEBUG AStar - Checking edge from C to G with weight 6.0
+2024-06-19 23:53:53 DEBUG AStar - Updating path to G. Previous gScore: Infinity, new gScore: 10.0
+2024-06-19 23:53:53 DEBUG AStar - Added G to open set.
+2024-06-19 23:53:53 DEBUG AStar - Visiting: E
+2024-06-19 23:53:53 DEBUG AStar - Checking edge from E to I with weight 2.0
+2024-06-19 23:53:53 DEBUG AStar - Updating path to I. Previous gScore: Infinity, new gScore: 8.0
+2024-06-19 23:53:53 DEBUG AStar - Added I to open set.
+2024-06-19 23:53:53 DEBUG AStar - Visiting: D
+2024-06-19 23:53:53 DEBUG AStar - Checking edge from D to H with weight 3.0
+2024-06-19 23:53:53 DEBUG AStar - Updating path to H. Previous gScore: Infinity, new gScore: 6.0
+2024-06-19 23:53:53 DEBUG AStar - Added H to open set.
+2024-06-19 23:53:53 DEBUG AStar - Visiting: I
+2024-06-19 23:53:53 DEBUG AStar - Checking edge from I to M with weight 5.0
+2024-06-19 23:53:53 DEBUG AStar - Updating path to M. Previous gScore: Infinity, new gScore: 13.0
+2024-06-19 23:53:53 DEBUG AStar - Added M to open set.
+2024-06-19 23:53:53 DEBUG AStar - Visiting: F
+2024-06-19 23:53:53 DEBUG AStar - Checking edge from F to J with weight 4.0
+2024-06-19 23:53:53 DEBUG AStar - Updating path to J. Previous gScore: Infinity, new gScore: 11.0
+2024-06-19 23:53:53 DEBUG AStar - Added J to open set.
+2024-06-19 23:53:53 DEBUG AStar - Visiting: J
+2024-06-19 23:53:53 DEBUG AStar - Checking edge from J to N with weight 3.0
+2024-06-19 23:53:53 DEBUG AStar - Updating path to N. Previous gScore: Infinity, new gScore: 14.0
+2024-06-19 23:53:53 DEBUG AStar - Added N to open set.
+2024-06-19 23:53:53 DEBUG AStar - Visiting: G
+2024-06-19 23:53:53 DEBUG AStar - Checking edge from G to K with weight 1.0
+2024-06-19 23:53:53 DEBUG AStar - Updating path to K. Previous gScore: Infinity, new gScore: 11.0
+2024-06-19 23:53:53 DEBUG AStar - Added K to open set.
+2024-06-19 23:53:53 DEBUG AStar - Visiting: H
+2024-06-19 23:53:53 DEBUG AStar - Checking edge from H to L with weight 6.0
+2024-06-19 23:53:53 DEBUG AStar - Updating path to L. Previous gScore: Infinity, new gScore: 12.0
+2024-06-19 23:53:53 DEBUG AStar - Added L to open set.
+2024-06-19 23:53:53 DEBUG AStar - Visiting: M
+2024-06-19 23:53:53 DEBUG AStar - Total path cost: 13.0
+2024-06-19 23:53:53 DEBUG AStar - Path: [A, B, E, I, M]
+2024-06-19 23:53:53 DEBUG PathfinderApplication - Path found: [A, B, E, I, M]
+2024-06-19 23:53:53 DEBUG PathfinderApplication - Total path cost: 13.0
